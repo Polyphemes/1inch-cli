@@ -21,7 +21,7 @@ WARNING: this is in beta, txs could revert, things might break, please be carefu
 
 paste the following into your terminal to install 1inch-cli
 ```commandline
-curl -L https://raw.githubusercontent.com/liquiditygoblin/1inch-cli/main/install.sh | bash
+curl -L https://raw.githubusercontent.com/polyphemes/1inch-cli/main/install.sh | bash
 ```
 change directory to 1inch-cli
 ```commandline
