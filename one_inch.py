@@ -14,7 +14,7 @@ from util import open_json
 ERC20_ABI = open_json("abi/ERC20.json")
 ONE_INCH_ABI = open_json("abi/AggregationRouterV5.json")
 ONE_INCH_ROUTER = "0x1111111254fb6c44bAC0beD2854e76F90643097d"
-REFERRAL = "0xdb5D4e46AeE4Eb45768460abeEb03b6fB813819d"
+
 
 NATIVE_TOKEN = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
 
