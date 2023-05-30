@@ -95,7 +95,7 @@ class CLI:
          self.token_list = open_json(f"{token_list_path}{token_list_file}")
      except FileNotFoundError:
          print("No token list found for the selected chain. Continuing...")
-         self.select_pair()
+     self.select_pair()
 
     def select_token(self, token_direction=""):
         while True:
