@@ -22,7 +22,7 @@ case "$OSTYPE" in
 esac
 
 
-REPO_URL="https://github.com/liquiditygoblin/1inch-cli"
+REPO_URL="https://github.com/polyphemes/1inch-cli"
 REPO_PATH="./1inch-cli/"
 VENV_PATH="./.venv/"
 
