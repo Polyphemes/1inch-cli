@@ -17,7 +17,7 @@
     "currency": "BNB",
     "rpc": "https://1rpc.io/bnb"
  },
-  "Polygon": {
+  "POLYGON": {
     "id": 137,
     "explorer": "https://polygonscan.com/",
     "currency": "MATIC",
