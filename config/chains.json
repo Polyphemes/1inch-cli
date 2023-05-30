@@ -34,6 +34,30 @@
     "explorer": "https://gnosisscan.io/",
     "currency": "xDAI",
     "rpc": "https://rpc.ankr.com/gnosis"
+      },
+  "AVAX": {
+    "id": 43114,
+    "explorer": "https://snowtrace.io/",
+    "currency": "AVAX",
+    "rpc": "https://avalanche.public-rpc.com"
+     },
+  "AURORA": {
+    "id": 1313161554,
+    "explorer": "https://explorer.aurora.dev/",
+    "currency": "ETH",
+    "rpc": "https://mainnet.aurora.dev"
+     },
+  "ERA": {
+    "id": 324,
+    "explorer": "https://explorer.zksync.io/",
+    "currency": "ETH",
+    "rpc": "https://mainnet.era.zksync.io"
+     },
+  "KLAYTN": {
+    "id": 8217,
+    "explorer": "https://scope.klaytn.com/",
+    "currency": "KLAY",
+    "rpc": "https://klaytn.blockpi.network/v1/rpc/public"
   },
   "FANTOM": {
     "id": 250,
