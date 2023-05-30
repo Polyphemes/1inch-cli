@@ -88,14 +88,11 @@ class CLI:
         self.select_token_list()
 
     def select_token_list(self):
-     token_list_path = f"config/token_lists/{self.chain_id}/"
-     token_list_files = [f for f in listdir(token_list_path) if isfile(join(token_list_path, f))]
-     token_list_file = token_list_files[prompt.options("select token list:", token_list_files) - 1]
-     try:
-         self.token_list = open_json(f"{token_list_path}{token_list_file}")
-     except FileNotFoundError:
-         print("No token list found for the selected chain. Continuing...")
-     self.select_pair()
+        token_list_path = f"config/token_lists/{self.chain_id}/"
+        token_list_files = [f for f in listdir(token_list_path) if isfile(join(token_list_path, f))]
+        token_list_file = token_list_files[prompt.options("select token list:", token_list_files) - 1]
+        self.token_list = open_json(f"{token_list_path}{token_list_file}")
+        self.select_pair()
 
     def select_token(self, token_direction=""):
         while True:
